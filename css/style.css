@@ -3,7 +3,6 @@
 .body {
     font-family: 'Space Mono', monospace;
     margin: 0;
-    background-color: black;
 }
 
 .star {
@@ -136,7 +135,6 @@ hr {
     display: block;
     border-width: 2px;
     color: #009999;
-    background-color: #009999;
 }
 
 .card {
