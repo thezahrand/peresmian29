@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.star {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  background-color: #009999;
+}
+
+/* For Wide Screen */
+
+@media only screen and (min-width: 1025px) {
+
+.Main {
+		width: 1024px;
+		margin: 0 auto;
+}
+
+.sidebar, .closebtn, .openbtn {
+  display: none;
+}
+
+#Home 
+{
+	padding-top:10px;
+	height:100%; 
+	width: 30%; 
+	color: #009999; 
+	background-color:transparent;
+	position: fixed;
+	margin-left: 160px;
+	top: 0;
+	left: 0;
+}
+
+#About 
+{
+	padding-top:10px;
+	height:100%;
+	width: 45%; 
+	color: white; 
+	background-color:transparent; 
+	top: 0;
+	margin-left: 660px;		
+}
+
+#Education
+{
+	padding-top:10px;
+	height:100%;
+	width: 45%; 
+	color: white; 
+	background-color:transparent; 
+	top: 0;
+	margin-left: 660px;
+}
+
+#Experience
+{
+	padding-top:10px;
+	height:100%;
+	width: 45%; 
+	color: white; 
+	background-color:transparent; 
+	top: 0;
+	margin-left: 660px;
+}
+}
+
+/* For Tablet Screen */
+
+@media only screen and (min-width:768px ) and (max-width: 1024px) {
+.main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#About, #Education, #Experience {
+	color: white;
+}
+
+#Home{
+	color: #009999;
+}
+
+.sidenav {
+	display: none;
+}
+}
+
+/* For Mobile */
+
+@media only screen and (max-width: 768px) {
+.main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#About, #Education, #Experience {
+	color: white;
+}
+
+#Home{
+	color: #009999;
+}
+
+.sidenav {
+	display: none;
+}
+}
+
+.image1
+{
+  padding: 30px;
+  max-width: 65%;
+  height: auto;
+  border-radius: 60px;
+  }
+.text1
+ {
+ 	font-size: 20px;
+ 	font-weight: 2px;
+ 	
+ 	justify-content: center;
+}
+
+.text1 a
+{
+	color: #009999;
+
+}
+
+.icon
+{
+	width: 85%;
+	margin-left: -25px;  	
+}
+
+ /*For Jumbler */
+  
+.container1 {
+  height: 100%;
+  width: 100%;
+  justify-content: center;  
+  display: flex;
+  position: absolute;
+}
+
+.dud {
+  color: #757575;
+}
+
+/* End Jumbler */
+
+hr {
+  display: block;  
+  border-width: 2px;
+  color: #009999;
+  background-color: #009999;
+}
+
+.card
+ {
+ 	font-size: 25px;
+ 	font-weight: 4px;
+ 	color: white; 
+ 	justify-content: left;
+ 	background-color: transparent;
+}
+
+.card-image
+{
+	width: 40%;
+	height: 40%;
+	display: inline-block;
+}
+
+#fb {
+	background: url("../assets/icons/fb1.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;    
+}
+
+#fb:hover {
+    background: url("../assets/icons/fb.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#twitter {
+	background: url("../assets/icons/twitter1.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#twitter:hover {
+    background: url("../assets/icons/twitter.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#in {
+	background: url("../assets/icons/in1.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#in:hover {
+    background: url("../assets/icons/in.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#git {
+	background: url("../assets/icons/git1.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#git:hover {
+    background: url("../assets/icons/git.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#insta {
+	background: url("../assets/icons/insta1.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#insta:hover {
+    background: url("../assets/icons/insta.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
