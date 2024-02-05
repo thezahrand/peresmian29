@@ -1,188 +1,266 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@0,400;0,700;1,400;1,700&display=swap');
 
-.body {
-    font-family: 'Space Mono', monospace;
-    margin: 0;
+body {
+  margin: 0;
+  background-color: black;
+	    font-family: 'Space Mono', monospace;
+
 }
 
 .star {
-    position: fixed;
-    width: 1px;
-    height: 1px;
-    background-color: #009999;
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  background-color: #009999;
 }
 
 /* For Wide Screen */
 
 @media only screen and (min-width: 1025px) {
 
-    .Main {
-        width: 1024px;
-        margin: 0 auto;
-    }
+.Main {
+		width: 1024px;
+		margin: 0 auto;
+}
 
-    .sidebar, .closebtn, .openbtn {
-        display: none;
-    }
+.sidebar, .closebtn, .openbtn {
+  display: none;
+}
 
-    #Home, #About, #Education, #Experience {
-        font-family: 'Space Mono', monospace;
-    }
+#Home 
+{
+	padding-top:10px;
+	height:100%; 
+	width: 30%; 
+	color: #009999; 
+	background-color:transparent;
+	position: fixed;
+	margin-left: 160px;
+	top: 0;
+	left: 0;
+}
 
-    #Home {
-        padding-top: 10px;
-        height: 100%;
-        width: 30%;
-        color: #009999;
-        background-color: transparent;
-        position: fixed;
-        margin-left: 160px;
-        top: 0;
-        left: 0;
-    }
+#About 
+{
+	padding-top:10px;
+	height:100%;
+	width: 45%; 
+	color: white; 
+	background-color:transparent; 
+	top: 0;
+	margin-left: 660px;		
+}
 
-    #About, #Education, #Experience {
-        padding-top: 10px;
-        height: 100%;
-        width: 45%;
-        color: white;
-        background-color: transparent;
-        top: 0;
-        margin-left: 660px;
-    }
+#Education
+{
+	padding-top:10px;
+	height:100%;
+	width: 45%; 
+	color: white; 
+	background-color:transparent; 
+	top: 0;
+	margin-left: 660px;
+}
+
+#Experience
+{
+	padding-top:10px;
+	height:100%;
+	width: 45%; 
+	color: white; 
+	background-color:transparent; 
+	top: 0;
+	margin-left: 660px;
+}
 }
 
 /* For Tablet Screen */
 
 @media only screen and (min-width:768px ) and (max-width: 1024px) {
-    .main {
-        width: 90%;
-        margin: 0 auto;
-    }
+.main {
+	width: 90%;
+	margin: 0 auto;
+}
 
-    #About, #Education, #Experience {
-        color: white;
-    }
+#About, #Education, #Experience {
+	color: white;
+}
 
-    #Home {
-        color: #009999;
-    }
+#Home{
+	color: #009999;
+}
 
-    .sidenav {
-        display: none;
-    }
+.sidenav {
+	display: none;
+}
 }
 
 /* For Mobile */
 
 @media only screen and (max-width: 768px) {
-    .main {
-        font-family: 'Space Mono', monospace;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    #About, #Education, #Experience {
-        color: white;
-    }
-
-    #Home {
-        color: #009999;
-    }
-
-    .sidenav {
-        display: none;
-    }
+.main {
+	width: 90%;
+	margin: 0 auto;
 }
 
-.image1 {
-    padding: 30px;
-    max-width: 65%;
-    height: auto;
-    border-radius: 60px;
+#About, #Education, #Experience {
+	color: white;
 }
 
-.text1 {
-    font-family: 'Space Mono', monospace;
-    font-size: 20px;
-    font-weight: 2px;
-    justify-content: center;
+#Home{
+	color: #009999;
 }
 
-.text1 a {
-    font-family: 'Space Mono', monospace;
-    color: #009999;
+.sidenav {
+	display: none;
+}
 }
 
-.icon {
-    width: 85%;
-    margin-left: -25px;
+.image1
+{
+  padding: 30px;
+  max-width: 65%;
+  height: auto;
+  border-radius: 60px;
+  }
+.text1
+ {
+ 	font-size: 20px;
+ 	font-weight: 2px;
+ 	
+ 	justify-content: center;
 }
 
+.text1 a
+{
+	color: #009999;
+
+}
+
+.icon
+{
+	width: 85%;
+	margin-left: -25px;  	
+}
+
+ /*For Jumbler */
+  
 .container1 {
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    position: absolute;
+  height: 100%;
+  width: 100%;
+  justify-content: center;  
+  display: flex;
+  position: absolute;
 }
 
 .dud {
-    color: #757575;
+  color: #757575;
 }
+
+/* End Jumbler */
 
 hr {
-    display: block;
-    border-width: 2px;
-    color: #009999;
+  display: block;  
+  border-width: 2px;
+  color: #009999;
+  background-color: #009999;
 }
 
-.card {
-    font-size: 25px;
-    font-weight: 4px;
-    color: white;
-    justify-content: left;
-    background-color: transparent;
+.card
+ {
+ 	font-size: 25px;
+ 	font-weight: 4px;
+ 	color: white; 
+ 	justify-content: left;
+ 	background-color: transparent;
 }
 
-.card-image {
-    width: 40%;
-    height: 40%;
-    display: inline-block;
+.card-image
+{
+	width: 40%;
+	height: 40%;
+	display: inline-block;
 }
 
-#fb, #twitter, #in, #git, #insta {
-    background-size: 15vh;
+#fb {
+	background: url("../assets/icons/fb1.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;    
+}
+
+#fb:hover {
+    background: url("../assets/icons/fb.png") no-repeat;
+    background-size: 15vh;  
     height: 15vh;
     width: 15vh;
 }
 
-#fb:hover {
-    background-size: 15vh;
+#twitter {
+	background: url("../assets/icons/twitter1.png") no-repeat;
+    background-size: 15vh;  
     height: 15vh;
     width: 15vh;
 }
 
 #twitter:hover {
-    background-size: 15vh;
+    background: url("../assets/icons/twitter.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#in {
+	background: url("../assets/icons/in1.png") no-repeat;
+    background-size: 15vh;  
     height: 15vh;
     width: 15vh;
 }
 
 #in:hover {
-    background-size: 15vh;
+    background: url("../assets/icons/in.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#git {
+	background: url("../assets/icons/git1.png") no-repeat;
+    background-size: 15vh;  
     height: 15vh;
     width: 15vh;
 }
 
 #git:hover {
-    background-size: 15vh;
+    background: url("../assets/icons/git.png") no-repeat;
+    background-size: 15vh;  
+    height: 15vh;
+    width: 15vh;
+}
+
+#insta {
+	background: url("../assets/icons/insta1.png") no-repeat;
+    background-size: 15vh;  
     height: 15vh;
     width: 15vh;
 }
 
 #insta:hover {
-    background-size: 15vh;
+    background: url("../assets/icons/insta.png") no-repeat;
+    background-size: 15vh;  
     height: 15vh;
     width: 15vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
