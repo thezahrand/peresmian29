@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Kalam');
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 body {
   background: #E5E5E5;
-  background-image: url("bg.jpg");
+  background-image: url("assets/bg.jpg");
 }
 
 #card-front {
