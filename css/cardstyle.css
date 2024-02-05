@@ -6,8 +6,8 @@
 }
 
 body {
-  background: #E5E5E5;
-  background-image: url("assets\bg.png");}
+  background-image: url("assets\bg.png");
+  font-family: 'Space Mono';}
 
 #card-front {
   color: #FFDFDF;
@@ -62,7 +62,7 @@ body {
   font-family: 'Space Mono', cursive;
   font-style: italic;
   font-size: 70px;
-  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #1f1f1f, 2px 2px 0 #000000, 3px 3px 0 #383838;
   color: #FFF;
 }
 
@@ -91,8 +91,8 @@ font-family: 'Source Code Pro', cursive;
 
 #card-front {
   background-color: #ee9ca7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF5555), to(#FF7777));
-  background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#04353d), to(#0c4eca));
+  background-image: linear-gradient(top, #160240 0%, #1c7ac2 100%);
   -webkit-transform-origin: left;
           transform-origin: left;
   -webkit-transition: -webkit-transform 1s linear;
@@ -129,7 +129,7 @@ font-family: 'Source Code Pro', cursive;
   position: absolute;
   bottom: 1em;
   right: -12px;
-  background: #F44;
+  background: rgb(21, 2, 72);
   color: #FFF;
   font-family: 'Space Mono', cursive;
   font-style: italic;
@@ -144,7 +144,7 @@ font-family: 'Source Code Pro', cursive;
 
 #card-front button:hover,
 #card-front button:focus {
-  background: #F22;
+  background: rgb(46, 7, 100);
 }
 
 #close {
@@ -233,7 +233,7 @@ font-family: 'Space Mono', cursive;
 
 .velas:after,
 .velas:before {
-  background: rgba(255, 0, 0, 0.4);
+  background: rgba(33, 3, 103, 0.4);
   content: "";
   position: absolute;
   width: 100%;
